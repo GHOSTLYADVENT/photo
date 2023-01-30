@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: black;
+    margin-bottom: 0;
+    padding: 0;
+    border-top: 5px solid #fff;
+}
+
+.img-prop {
+    max-width: 300px;
+    min-height: 300px;
+    object-fit: contain;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 375px) {
+    .img-prop {
+    object-fit: scale-down;
+    margin: 0.3rem;
+}
+}
+
+@media (max-width: 768px) {
+    .img-prop {
+    object-fit: contain;
+    margin: 0.3rem;
+}
+}
+
+.bd-footer {
+    margin-top: 0;
+    position: relative;
+}
+
+.container-fluid {
+    background: url('/static/imgs/pexels-mick-haupt-14105422.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.uploaded-photo {
+    max-width: 300px;
+    min-height: 300px;
+    object-fit: contain;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+form {
+    min-height: 30vh;
+}
+
+a {
+    text-decoration: none;
+}
+
